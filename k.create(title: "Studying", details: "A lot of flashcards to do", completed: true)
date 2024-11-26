@@ -1,0 +1,10 @@
+=> 
+[32m#<Task:0x00007f54f11a2c08[0m
+ id: [34m[1m1[0m,
+ title: [31m[1m"[0m[31mLaundry[0m[31m[1m"[0m,
+ details: [31m[1m"[0m[31mDo not mix colors![0m[31m[1m"[0m,
+ completed: [36m[1mfalse[0m,
+ created_at:
+  Tue, 26 Nov 2024 10:25:43.193177000 UTC +00:00,
+ updated_at:
+  Tue, 26 Nov 2024 10:25:43.193177000 UTC +00:00[32m>[0m
