@@ -2,7 +2,7 @@
 <ul class="list">
   <% @tasks.each do |task| %>
   <div style="display: flex">
-    <input type="checkbox" name="task">
+    <input type="checkbox" name="task" <%= "checked" if task.completed%>>
     <%= link_to task.title, task_path(task)%>
     <%= link_to task_path(task), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do%>
       <i class="fa-solid fa-trash"></i>

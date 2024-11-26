@@ -10,13 +10,16 @@
       <%= f.label :details%>
       <%= f.text_field :details%>
     </div>
+    <div style="margin: 20px">
+      <%= f.label :completed%>
+      <%= f.check_box :completed%>
+      <%# <input type="checkbox" name="completed" value=> %>
+      <%# <label for="completed">Completed</label> %>
+    </div>
     <%= f.submit %>
   <%end%>
 </div>
 
-<div style="margin: 20px">
-  <input type="checkbox" name="completed">
-  <label for="completed">Completed</label>
-</div>
+
 
 <%= link_to "back to list", tasks_path%>
